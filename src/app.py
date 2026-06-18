@@ -110,11 +110,10 @@ def carregar_dados():
         st.error(f"Erro no PostgreSQL: {e}")
         st.stop()
 
-    try:
-        
-        df_2025 = pd.read_csv('../data/partidas_2025.csv')
-        df_2026 = pd.read_csv('../data/partidas_2026.csv')
-        df_stats = pd.read_csv('../data/campeonato-brasileiro-estatisticas-full.csv')
+    try:    
+        df_2025 = pd.read_csv('data/partidas_2025.csv')
+        df_2026 = pd.read_csv('data/partidas_2026.csv')
+        df_stats = pd.read_csv('data/campeonato-brasileiro-estatisticas-full.csv')
     except Exception as e:
         st.error(f"Erro ao ler CSVs: {e}")
         st.stop()

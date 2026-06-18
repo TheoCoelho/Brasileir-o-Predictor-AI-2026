@@ -30,4 +30,8 @@ Certifique-se de ter o Python 3.10+ instalado.
 2. **Crie e ative um ambiente virtual:**
    ```bash
    python -m venv venv
+
+   Rode a aplicação
+   streamlit run src/app.py
+
    source venv/bin/activate  # No Windows: .\venv\Scripts\activate
