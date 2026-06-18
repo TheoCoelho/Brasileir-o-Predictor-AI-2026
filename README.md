@@ -109,4 +109,3 @@ PROJETO_FUTEBOL/
 ├── .gitignore                            # Arquivos ignorados pelo Git
 ├── requirements.txt                      # Dependências do projeto
 └── README.md                             # Documentação
-
